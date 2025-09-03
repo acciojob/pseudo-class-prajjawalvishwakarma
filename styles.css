@@ -4,11 +4,13 @@
 }
 .container::before {
       content: "Before Element ";
-      color: red;
-      font-weight: bold;
+      color: #f00;
+     font-size: 20px;
+      
     }
     .container::after {
       content: " After Element";
-      color: red;
-      font-weight: bold;
+      color: #f00;
+      font-size: 20px;
+      
     }
